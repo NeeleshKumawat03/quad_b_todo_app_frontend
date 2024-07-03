@@ -1,0 +1,55 @@
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+span {
+    font-weight: bold;
+}
+.incomplete {
+    background-color: rgb(13, 187, 13);
+}
+
+.complete {
+    background-color: rgb(250, 4, 4);
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+  
+li:last-child {
+    border-bottom: none;
+}
+  
+li span {
+    flex: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+}
+
+li button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
